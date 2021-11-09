@@ -10,6 +10,10 @@
   font-family: SF_PRO;
   src: url(./sf-mono-cufonfonts/FontsFree-Net-SFProText-Regular.ttf);
 }
+@font-face {
+  font-family: SFProDisplay;
+  src: url(./sf-mono-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+}
 .nRose {
   width: 55%;
   display: block;
@@ -121,4 +125,24 @@
   .iconsdiv {
     margin-top: 8%;
   }
+}
+.statusParas {
+  font-family: newyork Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 34px */
+
+  color: #000000;
+}
+.statush2 {
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+  color: #000000;
 }
