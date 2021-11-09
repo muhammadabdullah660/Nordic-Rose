@@ -3,11 +3,11 @@
   src: url(./newyork/FontsFree-Net-NewYorkExtraLargeRegular.ttf);
 }
 @font-face {
-  font-family: SF_MONO;
+  font-family: SFMONO;
   src: url(./sf-mono-cufonfonts/SFMonoRegular.otf);
 }
 @font-face {
-  font-family: SF_PRO;
+  font-family: SFPRO;
   src: url(./sf-mono-cufonfonts/FontsFree-Net-SFProText-Regular.ttf);
 }
 @font-face {
@@ -79,7 +79,7 @@
   height: auto;
 }
 .statusP {
-  font-family: SF_Pro;
+  font-family: SFPRO;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -87,7 +87,7 @@
   color: #000000;
 }
 .statusH {
-  font-family: SF_Pro;
+  font-family: SFPRO;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -107,6 +107,16 @@
   text-align: center;
   height: fit-content;
 }
+.iconText {
+  font-family: SFPRO;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+}
 @media screen and (max-width: 576px) {
   .statusP {
     font-size: 70%;
@@ -121,9 +131,13 @@
     font-size: 80%;
   }
 }
+
 @media screen and (max-width: 750px) {
   .iconsdiv {
     margin-top: 8%;
+  }
+  .iconText {
+    display: none;
   }
 }
 .statusParas {
@@ -145,4 +159,69 @@
   /* or 51px */
 
   color: #000000;
+}
+.statuePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 90%;
+}
+@media screen and (max-width: 750px) {
+  .statuePic {
+    width: 100%;
+    height: auto;
+  }
+}
+.imgLabel {
+  font-family: SFPRO;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  margin-top: 8px;
+  color: #000000;
+}
+.listSpan {
+  list-style: none;
+  font-family: New York Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+  color: #000000;
+}
+.tags {
+  font-family: SFPro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #0c0c0c;
+}
+.introH {
+  font-family: SFPRO;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #0c0c0c;
+}
+.introP {
+  font-family: newyork;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
