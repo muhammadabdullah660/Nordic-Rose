@@ -1,0 +1,124 @@
+@font-face {
+  font-family: newyork;
+  src: url(./newyork/FontsFree-Net-NewYorkExtraLargeRegular.ttf);
+}
+@font-face {
+  font-family: SF_MONO;
+  src: url(./sf-mono-cufonfonts/SFMonoRegular.otf);
+}
+@font-face {
+  font-family: SF_PRO;
+  src: url(./sf-mono-cufonfonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+.nRose {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+}
+.nav-link {
+  font-family: newyork Small;
+  font-style: normal;
+  font-weight: bolder;
+  color: black;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  letter-spacing: 0.12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+}
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    position: absolute;
+    right: 10%;
+  }
+}
+
+.navDiv2 {
+  color: black;
+}
+.navDiv2:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 35px;
+}
+@media screen and (max-width: 576px) {
+  .nRose {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .navbar-toggler {
+    margin-right: 0;
+  }
+}
+#navH {
+  font-family: newyork;
+  font-weight: bolder;
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+}
+#navP {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+#yellowPic {
+  width: 100%;
+  height: auto;
+}
+.statusP {
+  font-family: SF_Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.statusH {
+  font-family: SF_Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.icons {
+  font-size: 20px;
+  color: #000;
+  margin-right: 2px;
+  padding-top: 5px;
+}
+.iconsdiv {
+  border: 1px rgb(202, 200, 200) solid;
+  text-align: center;
+  height: fit-content;
+}
+@media screen and (max-width: 576px) {
+  .statusP {
+    font-size: 70%;
+    line-height: 10px;
+  }
+  .statusH {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .icons {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .iconsdiv {
+    margin-top: 8%;
+  }
+}
