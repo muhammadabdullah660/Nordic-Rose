@@ -225,3 +225,45 @@
   font-weight: 400;
   font-size: 16px;
 }
+.eyeImg {
+  position: relative;
+  bottom: 50px;
+}
+.blacks {
+  border: 2px black solid;
+}
+.wtrn {
+  font-family: newyork;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.wtrnImg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.wtrnP {
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #000000;
+}
+@media screen and (max-width: 750px) {
+  .wtrn {
+    font-size: 32px;
+  }
+}
